@@ -16,7 +16,7 @@ Este repositório contém um script Bash (`.sh`) projetado para automatizar a cr
     ├── test/                     # Scripts de teste (verificação, debug, etc.)
     ├── extras/                   # Scripts auxiliares (ex: leitura serial em Python)
     ├── .gitignore                # Arquivos e pastas ignorados pelo Git
-    ├── README.md                 # Descrição geral do projeto (este arquivo)
+    ├── README.md                 # Descrição geral do projeto
     └── contributing.md           # (Opcional) Como contribuir com o projeto
     ```
 
