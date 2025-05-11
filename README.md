@@ -67,4 +67,4 @@ Sinta-se à vontade para contribuir com melhorias no script, como adicionar mais
 
 ## Autor
 
-Este script foi criado para simplificar o início de projetos Arduino e promover boas práticas de organização. Sinta-se à vontade para usá-lo e adaptá-lo às suas necessidades.
+Este script foi criado para simplificar o início de projetos Arduino da Equipe de Foguetemodelismo Serra Rocketry do IPRJ-UERJ e promover boas práticas de organização. Sinta-se à vontade para usá-lo e adaptá-lo às suas necessidades.
