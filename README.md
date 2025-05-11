@@ -42,13 +42,13 @@ Este repositório contém um script Bash (`.sh`) projetado para automatizar a cr
     * **Para criar um projeto com o nome padrão ("Novo-Projeto"):**
 
         ```bash
-        ./criar_projeto.sh
+        ./init_arduino.sh
         ```
 
     * **Para criar um projeto com um nome específico (substitua `MeuProjetoArduino` pelo nome desejado):**
 
         ```bash
-        ./criar_projeto.sh MeuProjetoArduino
+        ./init_arduino.sh MeuProjetoArduino
         ```
 
 4.  **Verifique a estrutura:** Após a execução bem-sucedida, um novo diretório com o nome do seu projeto será criado no diretório atual, contendo a estrutura de pastas e arquivos definidos no script.
