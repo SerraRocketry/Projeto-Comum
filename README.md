@@ -45,10 +45,10 @@ Este repositório contém um script Bash (`.sh`) projetado para automatizar a cr
         ./init_arduino.sh
         ```
 
-    * **Para criar um projeto com um nome específico (substitua `MeuProjetoArduino` pelo nome desejado):**
+    * **Para criar um projeto com um nome específico (substitua `MeuProjeto` pelo nome desejado):**
 
         ```bash
-        ./init_arduino.sh MeuProjetoArduino
+        ./init_arduino.sh MeuProjeto
         ```
 
 4.  **Verifique a estrutura:** Após a execução bem-sucedida, um novo diretório com o nome do seu projeto será criado no diretório atual, contendo a estrutura de pastas e arquivos definidos no script.
@@ -60,6 +60,47 @@ Este repositório contém um script Bash (`.sh`) projetado para automatizar a cr
 * **Melhor Colaboração:** Facilita a compreensão da estrutura do projeto por outros colaboradores.
 * **Boas Práticas:** Incentiva a separação de código, documentação, arquivos de hardware e ferramentas auxiliares.
 * **Pronto para Git:** Inclui um arquivo `.gitignore` básico para ajudar a gerenciar seu repositório Git.
+
+## Editando o `.bashrc`
+Para facilitar o uso do script, você pode criar um alias no arquivo de configuração do seu shell (`.bashrc`, `.zshrc`, etc.). Isso permitirá que você execute o script de qualquer lugar usando um comando curto.
+
+1. **Abra o arquivo de configuração do seu shell**:
+    * Para Bash:
+      ```bash
+      nano ~/.bashrc
+      ```
+    * Para Zsh:
+      ```bash
+      nano ~/.zshrc
+      ```
+
+2. **Adicione o alias**:
+    Insira a seguinte linha no final do arquivo, substituindo `/caminho/para/init_arduino.sh` pelo caminho completo do script:
+
+    ```bash
+    alias initarduino='/caminho/para/init_arduino.sh'
+    ```
+
+3. **Atualize as configurações do shell**:
+    Após salvar o arquivo, recarregue as configurações do shell:
+
+    * Para Bash:
+      ```bash
+      source ~/.bashrc
+      ```
+    * Para Zsh:
+      ```bash
+      source ~/.zshrc
+      ```
+
+4. **Use o alias**:
+    Agora você pode executar o script de qualquer lugar usando o comando:
+
+    ```bash
+    initarduino
+    ```
+
+Isso simplifica o uso do script, eliminando a necessidade de navegar até o diretório onde ele está localizado.
 
 ## Contribuições
 

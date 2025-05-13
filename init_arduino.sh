@@ -4,8 +4,8 @@
 PROJECT_NAME="${1:-Novo-Projeto}"
 
 # Caminho base para criar o projeto
-USER=$(whoami)
-BASE_DIR="/home/$USER/Projetos/$PROJECT_NAME"
+# Caminho base para criar o projeto
+BASE_DIR="$(pwd)/$PROJECT_NAME"
 
 # Verifica se o projeto já existe
 if [ -d "$BASE_DIR" ]; then
